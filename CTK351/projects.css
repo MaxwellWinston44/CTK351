@@ -1,0 +1,109 @@
+body {
+  background-color: lightblue;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  background-color: #ffffff;
+    border-radius: 50px
+}
+
+h1{
+  border-bottom: 5px solid #D16587;
+  color: #D16587;
+}
+
+h1 a{
+  color: #D16587;
+  text-decoration: none;
+}
+
+h1 a:hover{
+  color: purple;
+}
+
+nav ul {
+  list-style-type: none;  /* none, disc, circle, square */
+  margin-top: 0px;
+  padding: 0px;
+}
+
+nav li {
+  border: 0px solid black;
+  Background-Color: #D16587;
+  width: 196px;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+  }
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 25px;
+}
+
+nav li a:hover {
+  background-color: purple;
+  border-radius: 50px
+}
+
+nav li a:hover {
+  background-color: purple;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px #666;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+  display: block;
+}
+
+#jojo {
+  background-color: #D16587;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+}
+
+#gigi {
+  background-color: #D16587;
+  color: white;
+  font-size: 20px;
+  margin-bottom:30px;
+}
+
+.carousel {
+  color: #170724;
+
+  --carousel-button-bg: #fff;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 450px;
+  margin-right: 6px;
+
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+footer{
+  background-color: #D16587;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: Helvetica;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
